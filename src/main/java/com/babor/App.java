@@ -9,6 +9,8 @@ package com.babor;
  */
 public class App {
     public static void main( String[] args ) {
+        Thread currentThread = Thread.currentThread();
 
+        System.out.println(currentThread.getName());
     }
 }
